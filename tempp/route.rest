@@ -1,0 +1,18 @@
+GET http://localhost:3000/testrunners
+
+
+### 
+
+Post http://localhost:3000/testrunners
+Content-Type: application/json
+
+{
+    "UserName" : "Kaivalya C",
+    "year" : "4",
+    "universityrollNumber" : "00727228233",
+    "rating" : "average",
+    "userMail" : "kaivalyac@gmail.com",
+    "class" : "cse2",
+    "phoneNumber" : "9797324790"
+     
+}
